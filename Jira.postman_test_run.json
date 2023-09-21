@@ -1,0 +1,245 @@
+{
+	"id": "da14c46a-0fb1-4176-8370-31f64284e3e2",
+	"name": "Jira",
+	"timestamp": "2023-09-21T07:58:36.334Z",
+	"collection_id": "29567474-99c57f99-1c6f-465c-8693-7eb037d80676",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-21T07:58:30.894Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2ac63c1f-130d-4d20-b04e-104ed3f4b337",
+			"name": "post",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issue/",
+			"time": 873,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"verifyidisnotnull": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verifyidisnotnull": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				873
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"verifyidisnotnull": true
+				}
+			]
+		},
+		{
+			"id": "3e4e3525-853c-4778-937e-11b93f4f1ccd",
+			"name": "get",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issue/10433",
+			"time": 474,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				474
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ca96bfd-4ed7-4387-b9d5-59afbc6ff283",
+			"name": "put",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issue/10433",
+			"time": 496,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				496
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "835560f7-27cc-438c-919f-0ac8945d8677",
+			"name": "delete",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issue/10433",
+			"time": 746,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				746
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "68329d6a-d01c-46c3-8c41-cf7bbc95c6ce",
+			"name": "GetSearch",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/search?SP-43=project=\"SEPPROJECT\"",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f003676e-1e33-4da0-bcb1-d294e0236f9d",
+			"name": "Listissues",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issuetype",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				315
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "93a03728-e9ea-4bf1-a6ff-af14d0e04608",
+			"name": "specificID",
+			"url": "https://testingnssystems.atlassian.net/rest/api/2/issuetype/10003",
+			"time": 307,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				307
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3490,
+	"collection": {
+		"requests": [
+			{
+				"id": "2ac63c1f-130d-4d20-b04e-104ed3f4b337",
+				"method": "POST"
+			},
+			{
+				"id": "3e4e3525-853c-4778-937e-11b93f4f1ccd",
+				"method": "GET"
+			},
+			{
+				"id": "5ca96bfd-4ed7-4387-b9d5-59afbc6ff283",
+				"method": "PUT"
+			},
+			{
+				"id": "835560f7-27cc-438c-919f-0ac8945d8677",
+				"method": "DELETE"
+			},
+			{
+				"id": "68329d6a-d01c-46c3-8c41-cf7bbc95c6ce",
+				"method": "GET"
+			},
+			{
+				"id": "f003676e-1e33-4da0-bcb1-d294e0236f9d",
+				"method": "GET"
+			},
+			{
+				"id": "93a03728-e9ea-4bf1-a6ff-af14d0e04608",
+				"method": "GET"
+			}
+		]
+	}
+}
